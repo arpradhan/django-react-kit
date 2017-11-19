@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+<div id="root"></div>
+<script src="{% static "dist/common.bundle.js" %}"></script>
+<script src="{% static "dist/index.bundle.js" %}"></script>
+{% endblock %}
